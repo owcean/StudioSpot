@@ -68,9 +68,9 @@ const Contact = () => {
           <hr />
           <h3>Get Social</h3>
           <div className="social-icons">
-            <a href="#"><img src="/img/fb.png" alt="Facebook" /></a>
-            <a href="#"><img src="/img/tt.png" alt="Twitter" /></a>
-            <a href="#"><img src="/img/ig.png" alt="Instagram" /></a>
+            <a href="#!"><img src="/img/fb.png" alt="Facebook" /></a>
+            <a href="#!"><img src="/img/tt.png" alt="Twitter" /></a>
+            <a href="#!"><img src="/img/ig.png" alt="Instagram" /></a>
           </div>
         </div>
       </main>

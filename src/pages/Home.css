@@ -1,0 +1,70 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  flex: 1;
+  min-height: 100vh;
+  background-color: var(--beige);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(60, 40, 30, 0.38);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding: 0 20px;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(40px, 7vw, 72px);
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.25);
+}
+
+.hero-line {
+  width: min(420px, 90vw);
+  height: 2px;
+  background: rgba(255,255,255,0.7);
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 36px;
+  background: var(--pink-dust);
+  color: #fff;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: background 0.25s, transform 0.2s;
+  box-shadow: 0 4px 16px rgba(214,169,154,0.4);
+}
+.hero-btn:hover {
+  background: var(--brown-light);
+  transform: translateY(-2px);
+}

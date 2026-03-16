@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500&family=Jost:wght@300;400;500;600&display=swap');
+
+:root {
+  --cream: #dcd5cf;
+  --beige: #e5dcd4;
+  --brown-dark: #4a3f35;
+  --brown-mid: #8b6f4b;
+  --brown-light: #b48c7f;
+  --brown-deep: #5a3921;
+  --pink-dust: #d6a99a;
+  --white: #ffffff;
+  --text-dark: #3d2c29;
+  --text-mid: #53494c;
+  --sidebar-bg: #a58b74;
+  --card-bg: #f5ede4;
+  --font-display: 'Playfair Display', serif;
+  --font-serif: 'Cormorant Garamond', serif;
+  --font-sans: 'Jost', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text-dark);
+  background-color: var(--beige);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: var(--font-sans); }
+input, textarea, select { font-family: var(--font-sans); }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--brown-light); border-radius: 3px; }
